@@ -6,7 +6,6 @@
     box-sizing: border-box
 }
 
-
 :root {
     --white-color: #ffff;
     --red-color: #F00;
@@ -17,6 +16,13 @@
     --secondary-font: 'Merriweather', sans-serif;
 
 }
+
+/* container */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 .m-y {
     margin: 100px 0;
@@ -43,12 +49,6 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-}
-
-/* container */
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
 }
 
 /* banner-section style here */
@@ -215,10 +215,11 @@
 }
 
 /* comming-soon-section mid-side-content */
+
 .mid-content-img {
     border: 9px solid var(--red-color);
-    width: 350px;
-    height: 350px;
+    width: 360px;
+    height: 360px;
     border-radius: 50%;
     position: relative;
     margin-left: -58px;
@@ -226,14 +227,13 @@
 
 .img-div {
     position: absolute;
-    top: 16px;
-    left: 16px;
+    top: 20px;
+    left: 20px;
 }
 
 .img-div img {
     max-width: 300px;
 }
-
 
 /*comming-soon-section right-side content */
 .right-side-content {
@@ -250,6 +250,7 @@
 .right-side-content img {
     max-width: 90px;
     margin-top: 25px;
+    vertical-align: bottom;
 }
 
 .right-side-content h1 {
@@ -502,3 +503,6 @@ input[type="submit"] {
     align-items: center;
     padding: 50px 0;
 }
+
+
+/* ending css */
